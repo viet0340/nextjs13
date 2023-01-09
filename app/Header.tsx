@@ -61,7 +61,7 @@ function Header() {
             className='w-full h-auto'
             src='https://fomexgroup.vn/upload/img/banner/dscf2254-31.jpg'
           />
-          <span className='absolute top-2/3 left-1/2 p-3 px-8 text-white bg-g uppercase bg-green-800 border rounded-md border-transparent text-2xl bg-opacity-70 font-medium'>
+          <span className='absolute top-2/3 right-1/2 translate-x-1/2 p-3 px-40 text-white bg-g uppercase bg-green-800 border rounded-md border-transparent text-2xl bg-opacity-70 font-medium'>
             {headers.find((o) => o?.value === pathname)?.label}
           </span>
         </div>
