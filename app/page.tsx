@@ -1,7 +1,12 @@
 import React from 'react'
+import Vision from '../components/Vision';
 
 function Home() {
-  return <div className='text-red-500'>I am the home page</div>;
+  return (
+    <div>
+      <Vision />
+    </div>
+  );
 }
 
 export default Home

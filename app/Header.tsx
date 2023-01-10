@@ -44,14 +44,18 @@ function Header() {
         </div>
       </div>
       {pathname === '/' && (
-        <Carousel autoPlay showThumbs={false} showArrows>
+        <Carousel autoPlay showThumbs={false} showArrows infiniteLoop>
           <div>
             <img src='https://fomexgroup.vn/upload/img/banner/bannner-fmx1.jpg' />
-            <p className='legend'>Legend 1</p>
+            <p className='absolute top-3/4 right-1/2 translate-x-1/2 p-3 px-40 text-white bg-g uppercase bg-green-800 border rounded-md border-transparent text-2xl bg-opacity-70 font-medium'>
+              Nâng tầm gỗ dán việt
+            </p>
           </div>
           <div>
             <img src='https://fomexgroup.vn/upload/img/banner/banner-2-11.jpg' />
-            <p className='legend'>Legend 2</p>
+            <p className='absolute top-3/4 right-1/2 translate-x-1/2 p-3 px-40 text-white bg-g uppercase bg-green-800 border rounded-md border-transparent text-2xl bg-opacity-70 font-medium'>
+              Nâng tầm gỗ dán việt
+            </p>
           </div>
         </Carousel>
       )}
